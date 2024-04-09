@@ -29,6 +29,10 @@ public class HrlyEmployee extends Employee
         System.out.println("Employee Wage:  "+hrlyWage);
         System.out.println("Hours worked:  "+hrsWorked);
     }
+    public double GetHrlyWage()
+    {
+        return hrlyWage;
+    }
 
     @Override
     public double CalculatePay()
