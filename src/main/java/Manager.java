@@ -7,7 +7,7 @@ public class Manager extends Employee
     public Manager(String name, Size size,double salaryMonthly)
     {
         super(name, size);
-        this.salary = salary;
+        this.salary = salaryMonthly;
         while(salary<0)
         {
             System.out.println("Bad salary entered. Try again.");

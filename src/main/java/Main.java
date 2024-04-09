@@ -54,7 +54,7 @@ public class Main
         System.out.println("Array of Payables");
         Payable[] payableArray = {employeeHr,manMan,businessProducts,busy};
         ShopApp.printClassNamesOfPayableEntities(payableArray);
-        Employee managerToEmployee = new HrlyEmployee("testguy",Size.XL,16.00);
-        managerToEmployee.GetHrlyWage();
+        HrlyEmployee managerToEmployee = new HrlyEmployee("testguy",Size.XL,16.00);
+        System.out.println("managerToEmployee Hrly Wage: "+(managerToEmployee).GetHrlyWage());
     }
 }
